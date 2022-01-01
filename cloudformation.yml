@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: CloudFormation Template for jasonneurohr.com on ECS
+Description: CloudFormation Template for atolanrewaju2021 on ECS
 Mappings:
   # https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html
   ecsOptimizedAmi:
-    ap-southeast-2:
+    us-east-2:
       AMI: ami-0c7dea114481e059d
 
 Outputs:
