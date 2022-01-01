@@ -10,3 +10,6 @@ Provision the following using cloudformation:
 - Launch Template which configures the Spot Instance/s
 - Create the roles required for everything to work correctly
 - Configure SNS topic for email notifications when events occur in the Auto Scaling Group
+
+
+![image](https://user-images.githubusercontent.com/59709429/147859046-9644dbf1-fa19-45b3-97ff-f6347c2ca4d6.png)
