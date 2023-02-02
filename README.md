@@ -1,4 +1,4 @@
-Provision the following using cloudformation:
+## Provision the following using cloudformation:
 
 - VPC and basic networking namely an Internet Gateway, public subnet, and route table
 - Elastic IP and associate it to an Elastic Network Interface - this will facilitate reuse of the same public IP when the Spot instances terminate
