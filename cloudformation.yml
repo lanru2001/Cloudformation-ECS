@@ -3,8 +3,8 @@ Description: CloudFormation Template for atolanrewaju2021 on ECS
 Mappings:
   # https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html
   ecsOptimizedAmi:
-    us-east-2:
-      AMI: ami-0c7dea114481e059d
+    us-east-1:
+      AMI: ami-007855ac798b5175e
 
 Outputs:
   awsRegionName:
@@ -23,7 +23,7 @@ Outputs:
 Parameters:
   ecsClusterTargetCapacity:
     Default: 1
-    Description: Number of EC2 Spot instances to initially launch in the ECS cluster
+    Description: Number of EC2 instances to initially launch in the ECS cluster
     Type: Number
   instanceType:
     AllowedValues:
@@ -33,7 +33,7 @@ Parameters:
     Type: String
   keyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the EC2 instances
-    Type: AWS::EC2::KeyPair::KeyName
+    Type: AWS::EC2::KeyPair::testkey
   sourceCidr:
     Default: 0.0.0.0/0
     Description: Optional - CIDR/IP range for instance ssh access - defaults to 0.0.0.0/0
